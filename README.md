@@ -49,7 +49,7 @@ The source data is in S3 and needs to be processed in data warehouse in Amazon R
 </li>
 <li>The task dependencies generate the following graph view:
 
-<a target="_blank" rel="noopener noreferrer" href="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-graph.png"><img src="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-graph.png" alt="Fig 1: Dag with correct task dependencies" style="max-width:100%;"></a></li>
+<a target="_blank" rel="noopener noreferrer" href="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-graph.png"><img src="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-graph.png" alt="Fig 1: Dag with correct task dependencies" ></a></li>
 
 <li>There are four operators:</li>
 </ul>
@@ -84,4 +84,4 @@ The source data is in S3 and needs to be processed in data warehouse in Amazon R
 <p>Run <code>/opt/airflow.start.sh</code> to start the Airflow server. Access the Airflow UI by clicking <code>Access Airflow</code> button. Note that Airflow can take up to 10 minutes to create the connection due to the size of the files in S3.</p>
 
 <h2>Project execution:</h2>
-<a target="_blank" rel="noopener noreferrer" href="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-execution.png"><img src="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-execution.png" alt="Fig 1: Dag with correct task dependencies" style="max-width:100%;"></a></li>
+<a target="_blank" rel="noopener noreferrer" href="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-execution.png"><img src="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-execution.png" alt="Fig 1: Dag with correct task execution" ></a>

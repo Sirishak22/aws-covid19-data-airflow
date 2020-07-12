@@ -48,8 +48,8 @@ The source data is in S3 and needs to be processed in data warehouse in Amazon R
 </ul>
 </li>
 <li>The task dependencies generate the following graph view:
-</li>
-![Apache airflow graph](/covid-data-airflow-graph.png)
+
+<a target="_blank" rel="noopener noreferrer" href="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-graph.png"><img src="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-graph.png" alt="Fig 1: Dag with correct task dependencies" style="max-width:100%;"></a></li>
 
 <li>There are four operators:</li>
 </ul>
@@ -82,9 +82,6 @@ The source data is in S3 and needs to be processed in data warehouse in Amazon R
 </ol>
 <h2>Build Instructions</h2>
 <p>Run <code>/opt/airflow.start.sh</code> to start the Airflow server. Access the Airflow UI by clicking <code>Access Airflow</code> button. Note that Airflow can take up to 10 minutes to create the connection due to the size of the files in S3.</p>
-### Project execution
-###### Run create_tables.py to create the postgre table ddl definitions and then run etl.py which takes the input file path and reads the json files and converts into required format and then inserts into all fact and dimension tables. Run test.ipynb to confirm your records are successfully inserted into each table.
 
-<li>Project execution:
-</li>
-![Apache airflow execution](/covid-data-airflow-execution.png)
+<h2>Project execution:</h2>
+<a target="_blank" rel="noopener noreferrer" href="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-execution.png"><img src="/narayana-k/aws-covid19-data-airflow/blob/master/covid-data-airflow-execution.png" alt="Fig 1: Dag with correct task dependencies" style="max-width:100%;"></a></li>

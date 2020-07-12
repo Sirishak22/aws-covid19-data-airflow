@@ -15,7 +15,7 @@ The source data is in S3 and needs to be processed in data warehouse in Amazon R
 ###### And below is an example of what the data in file, looks like.
 ![State data format ](/state-data.png)
 ![County data format ](/county-data.png)
-### Schema for Song Play Analysis
+### Schema for Covid19 data Analysis
 ###### Using the state and county datasets, you'll need to create a star schema optimized for queries on data analysis. This includes the following tables
 ###### Fact Table
 * usa_data_covid19 - records in usa_data_covid19 data associated with state and county wise number for each day
